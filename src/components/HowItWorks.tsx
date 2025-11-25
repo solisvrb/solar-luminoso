@@ -14,7 +14,7 @@ const HowItWorks = () => {
       icon: FileSearch,
       title: "1. Análise e Projeto",
       description:
-        "Avaliamos seu consumo de energia e projetamos o sistema ideal para suas necessidades",
+        "Realizamos análises minuciosas de sua instalação e consumo de energia e projetamos o sistema ideal para suas necessidades. Nosso método é único, criado por nós e inovador, você irá notar a diferença",
     },
     {
       icon: Wrench,
@@ -86,7 +86,7 @@ const HowItWorks = () => {
             <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-secondary/20" />
             <div className="relative z-10">
               <h3 className="text-2xl sm:text-3xl font-bold mb-4">
-                Em apenas 30 dias, você pode estar economizando
+                Em apenas 60 dias, você pode estar economizando
               </h3>
               <p className="text-lg mb-6 opacity-90">
                 Não deixe seu dinheiro escapar pela conta de luz. Cada mês que passa é dinheiro perdido.
