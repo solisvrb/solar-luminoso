@@ -30,12 +30,12 @@ const Hero = () => {
       <div className="container relative z-10 mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-2xl animate-in fade-in slide-in-from-bottom-4 duration-700">
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-foreground mb-6 leading-tight">
-            Imagine nunca mais se preocupar com a{" "}
-            <span className="text-primary">conta de luz</span>
+            Imagine transformar sua conta de luz em {" "}
+            <span className="text-primary">dinheiro no seu bolso</span>
           </h1>
           <p className="text-lg sm:text-xl text-neutral-600 mb-8 leading-relaxed">
-            Famílias como a sua estão economizando até <span className="font-bold text-foreground">R$ 800 por mês</span> e protegendo o futuro dos seus filhos. 
-            Não é só economia — é <span className="font-semibold">liberdade financeira e paz de espírito</span>.
+            Famílias e empresas como a sua estão economizando de <span className="font-bold text-foreground">R$ 300 a R$13.000 por mês</span> e protegendo o futuro dos seus filhos. 
+            Não é só economia — é <span className="font-semibold">investimento e conforto</span>.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Button size="lg" onClick={handleCTAClick} className="group">
@@ -54,11 +54,11 @@ const Hero = () => {
               <div className="text-sm text-neutral-600">Economia na conta de luz</div>
             </div>
             <div className="animate-in fade-in slide-in-from-bottom-4 duration-700 delay-200">
-              <div className="text-3xl sm:text-4xl font-bold text-primary mb-1">25+</div>
+              <div className="text-3xl sm:text-4xl font-bold text-primary mb-1">30+</div>
               <div className="text-sm text-neutral-600">Anos de durabilidade</div>
             </div>
             <div className="animate-in fade-in slide-in-from-bottom-4 duration-700 delay-300">
-              <div className="text-3xl sm:text-4xl font-bold text-primary mb-1">500+</div>
+              <div className="text-3xl sm:text-4xl font-bold text-primary mb-1">200+</div>
               <div className="text-sm text-neutral-600">Projetos concluídos</div>
             </div>
           </div>
