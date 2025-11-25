@@ -12,7 +12,7 @@ const About = () => {
     {
       icon: Shield,
       title: "Garantia Total",
-      description: "25 anos de garantia nos equipamentos e 5 anos na instalação",
+      description: "30 anos de garantia nos equipamentos e 1 ano na instalação",
     },
     {
       icon: Award,
@@ -22,7 +22,7 @@ const About = () => {
     {
       icon: Users,
       title: "Equipe Especializada",
-      description: "Profissionais certificados e com anos de experiência",
+      description: "Engenheiros eletricistas pós-graduados em energia solar e equipe técnica certificada com anos de experiência",
     },
   ];
 
@@ -34,8 +34,8 @@ const About = () => {
             Sobre Nós
           </h2>
           <p className="text-lg text-neutral-600 leading-relaxed">
-            Somos especialistas em energia solar com mais de 10 anos de experiência no mercado.
-            Nossa missão é tornar a energia limpa acessível para todos, combinando tecnologia de
+            Somos especialistas em energia solar com quase 8 anos de experiência no mercado.
+            Nossa missão é colocar dinheiro no seu bolso e tornar sua vida mais confortável, levando acesibilidade para todos, combinando tecnologia de
             ponta com atendimento personalizado.
           </p>
         </div>
