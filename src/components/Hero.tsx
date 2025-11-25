@@ -7,7 +7,11 @@ const Hero = () => {
     if (typeof window !== 'undefined' && (window as any).fbq) {
       (window as any).fbq('track', 'Lead');
     }
-    window.open('https://wa.me/553288190835?text=Ol%C3%A1!%20Gostaria%20de%20solicitar%20um%20or%C3%A7amento%20de%20energia%20solar', '_blank');
+   window.open(
+  'https://wa.me/553288190835?text=Ol%C3%A1%2C%20gostaria%20de%20solicitar%20um%20or%C3%A7amento%20de%20energia%20solar&utm_source=meta&utm_medium=ads&utm_campaign=leads_solar',
+  '_blank'
+);
+
   };
 
   return (
