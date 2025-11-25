@@ -10,25 +10,32 @@ const Testimonials = () => {
   };
   const testimonials = [
     {
-      name: "Maria Santos",
-      location: "São Paulo, SP",
-      text: "Quando vi a primeira conta de luz depois da instalação, chorei de emoção. Finalmente posso respirar financeiramente e ainda deixar um mundo melhor para meus filhos.",
+      name: "Ninico da Retífica",
+      location: "Visconde do Rio Branco, MG",
+      text: "Era um projeto complicado de ser feito por questões envolvendo a estrutura da nossa empresa e sombras no local. Demonstraram dominar com maestria o que fazem e foi um sucesso.",
       rating: 5,
-      savings: "R$ 450/mês",
+      savings: "R$ 5.000/mês",
     },
     {
-      name: "Carlos Oliveira",
-      location: "Rio de Janeiro, RJ",
-      text: "Minha empresa economiza quase R$ 3 mil por mês. É dinheiro que posso investir no crescimento do negócio e nos meus colaboradores. Transformou tudo!",
+      name: "Dr. Henrique Sabioni - Clínica PATAS",
+      location: "Ubá, MG",
+      text: "Era um projeto complicado de ser feito por questões envolvendo a estrutura da nossa empresa e sombras no local. Demonstraram dominar com maestria o que fazem e foi um sucesso.",
       rating: 5,
-      savings: "R$ 2.800/mês",
+      savings: "R$ 1.000/mês",
     },
     {
-      name: "Ana Paula Costa",
-      location: "Belo Horizonte, MG",
-      text: "Tinha medo de ser complicado, mas foi surpreendentemente fácil. Hoje, cada vez que olho para os painéis no teto, sinto orgulho de estar fazendo a coisa certa.",
+      name: "Luciano Machado",
+      location: "Visconde do Rio Branco, MG",
+      text: "Obrigado a toda a equipe da Solis que me ajudou a realizar esse sonho da energia solar, ajudando não só ao meu bolso como ao meio ambiente também. Parabéns!",
       rating: 5,
-      savings: "R$ 320/mês",
+      savings: "R$ 650/mês",
+    },
+    {
+      name: "Juninho Lamas",
+      location: "Visconde do Rio Branco, MG",
+      text: "Então tá, por falta de tempo eu fui adiando a instalação do sistema fotovoltaico na minha casa e fui perdendo dinheiro. Um dia sabendo que não tinha tempo e que deveria parar de adiar eu chamei um cara super bacana que acabou virando amigo que se chama Lucas, ele veio aqui e me passou uma confiança sem igual e puxou pra si a responsabilidade de resolver a minha demanda sem que eu tivesse um real de trabalho. Resultado que duas contas de mais de R$400,00 uma e mais de R$200,00 hoje, caiu pra menos de R$150,00 somadas e ainda com sobra para mais consumo que planejamos previamente. Sensacional o resultado e eu super recomendo esse cara. Tô falando desse cara Lucas Morfório",
+      rating: 5,
+      savings: "R$ 600/mês",
     },
   ];
 
@@ -44,7 +51,7 @@ const Testimonials = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8">
+      <div className="grid md:grid-cols-4 gap-8">
           {testimonials.map((testimonial, index) => (
             <div
               key={index}
