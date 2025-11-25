@@ -73,7 +73,7 @@ const Contact = () => {
               </div>
               <div>
                 <h3 className="font-semibold text-foreground mb-1">Telefone</h3>
-                <p className="text-neutral-600">(32) 8819-0835</p>
+                <p className="text-neutral-600">(32) 9172-2485</p>
               </div>
             </div>
 
@@ -101,7 +101,7 @@ const Contact = () => {
               <div className="bg-solar-green-light rounded-xl p-6">
                 <p className="text-sm text-primary font-medium mb-2">Horário de Atendimento</p>
                 <p className="text-sm text-neutral-700">
-                  Segunda a Sexta: 8h às 18h<br />
+                  Segunda a Sexta: 8h às 17h<br />
                 </p>
               </div>
             </div>
@@ -160,7 +160,7 @@ const Contact = () => {
 
                 <div>
                   <label htmlFor="consumption" className="block text-sm font-medium text-foreground mb-2">
-                    Consumo médio mensal (kWh)
+                    Consumo médio mensal* (kWh)
                   </label>
                   <Input
                     id="consumption"
@@ -169,6 +169,7 @@ const Contact = () => {
                     placeholder="Ex: 500"
                     value={formData.consumption}
                     onChange={handleChange}
+                    required
                   />
                 </div>
               </div>
