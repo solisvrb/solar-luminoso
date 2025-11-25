@@ -18,10 +18,10 @@ const handleCTAClick = () => {
     },
     {
       icon: Leaf,
-      title: "Sustentabilidade",
-      description: "Contribua para um planeta mais limpo com energia 100% renovável",
-      stat: "0kg",
-      statLabel: "de CO₂ emitido",
+      title: "Investimento de 3x a 5x mais rentável que qualquer outro",
+      description: "",
+      stat: "3%a.m. a 5%a.m.",
+      statLabel: "Mutiplique o valor investido em 50x",
     },
     {
       icon: Home,
@@ -32,10 +32,10 @@ const handleCTAClick = () => {
     },
     {
       icon: Sun,
-      title: "Independência Energética",
-      description: "Proteja-se contra os aumentos nas tarifas de energia",
-      stat: "25+",
-      statLabel: "anos de economia",
+      title: "Conforto e bem-estar para a sua família",
+      description: "Chega de passar calor por preocupação com ar condicionado ou sair apagando todas as luzes da casa o tempo todo",
+      stat: "Tranquilidade",
+      statLabel: "Energia solar é capaz até de melhorar o convívio familiar",
     },
   ];
 
@@ -47,8 +47,8 @@ const handleCTAClick = () => {
             Benefícios da Energia Solar
           </h2>
           <p className="text-lg text-neutral-600">
-            Invista no futuro com uma solução que combina economia, sustentabilidade e
-            independência energética
+            Invista no futuro com uma solução que combina economia, liberdade e
+            conforto
           </p>
         </div>
 
