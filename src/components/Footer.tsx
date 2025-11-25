@@ -54,7 +54,7 @@ const Footer = () => {
                 <Mail className="w-4 h-4" />
                 <span>rafaelhenrique.solis@gmail.com</span>
               </li>
-              <li>(32) 8819-0835</li>
+              <li>(32) 9172-2485</li>
               <li>Rua Floriano Peixoto, 241</li>
               <li>Apto 404 Centro - Visconde do Rio Branco</li>
             </ul>
