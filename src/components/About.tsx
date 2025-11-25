@@ -35,7 +35,7 @@ const About = () => {
           </h2>
           <p className="text-lg text-neutral-600 leading-relaxed">
             Somos especialistas em energia solar com quase 8 anos de experiência no mercado.
-            Nossa missão é colocar dinheiro no seu bolso e tornar sua vida mais confortável, levando acesibilidade para todos, combinando tecnologia de
+            Nossa missão é colocar dinheiro no seu bolso e tornar sua vida mais confortável, tornando a energia solar mais acessível para todos, combinando tecnologia de
             ponta com atendimento personalizado.
           </p>
         </div>
