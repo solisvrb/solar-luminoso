@@ -19,9 +19,9 @@ const Testimonials = () => {
     {
       name: "Dr. Henrique Sabioni - Clínica PATAS",
       location: "Ubá, MG",
-      text: "Era um projeto complicado de ser feito por questões envolvendo a estrutura da nossa empresa e sombras no local. Demonstraram dominar com maestria o que fazem e foi um sucesso.",
+      text: "Sou responsável por uma clínica veterinária que tinha uma conta mensal de energia por volta de R$2.500,00, então contratei a Solis pra resolver esse alto custo de energia. Fui muito bem atendido pelo responsável, Lucas, que prontamente me apresentou um projeto muito bem esclarecido, com imagens aéreas, mostrando sombras, ou seja, um projeto muito bem detalhado. Infelizmente, depois de mais ou menos 1 ano, um equipamento estragou como qualquer coisa pode estragar, contudo o atendimento pós-venda do Lucas e do Rafael foi excepcional, me colocando em constante contato com os fornecedores do equipamento e a garantia cobriu todos os custos. Ainda conseguiram fazer o fornecedor me ressarcir pelo tempo que fiquei sem gerar energia. Isso é um grande diferencial,  pois qualquer equipamento está apto a estragar, porém poucos profissionais estão dispostos a dar suporte nesse momento de problema.",
       rating: 5,
-      savings: "R$ 1.000/mês",
+      savings: "R$ 2.500/mês",
     },
     {
       name: "Luciano Machado",
